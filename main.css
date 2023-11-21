@@ -1,0 +1,43 @@
+html {
+  font-size: 10pt;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #339966;
+}
+
+.hedder {
+  width: 100%;
+  border-bottom: 5px solid black;
+  margin: 0;
+  padding: 20px 0;
+  color: #339966;
+  text-shadow: 3px 3px 1px black;
+  background-color: red;
+}
+
+.vstuplenie {
+  margin: 0 auto;
+  padding: 20px 0;
+
+  color: #003333;
+}
+
+.body {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.img {
+  width: 100px;
+  display: block;
+  margin: 0 0;
+  float: left;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #ff9933;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
