@@ -1,49 +1,81 @@
+/* MAIN */
 @import "main2.css";
 
-body,
-h1,
-p,
-ul,
-li {
-  margin: 0;
-}
-
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navigation {
-  width: 100%;
+.nav_panel {
+  width: 20%;
+  height: 100vh;
+  float: left;
   color: blueviolet;
   text-align: center;
-  margin-top: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: beige;
+.main_txt {
+  height: 100vh;
+  float: right;
+  width: 80%;
   text-align: center;
-  margin: 10px;
+  font-size: large;
+  font-weight: 600;
+  background-color: orange;
+  box-sizing: border-box;
+  color: #333;
+  overflow: auto;
+}
+
+nav {
+  background-color: wheat;
 }
 
 nav ul {
   list-style-type: none;
+  margin-right: 20px;
+  min-width: 40px;
 }
 
 nav li {
-  display: inline;
+  margin-top: 20px;
+  width: fit-content;
+  padding: 6px;
+  border-color: rgb(97, 20, 169);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: white;
 }
 
-.edit_txt {
-  text-align: center;
-  color: green;
-  padding: 15px;
+nav a {
+  font-size: x-large;
+  font-weight: bolder;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button {
-  padding: 10px;
+nav a:active {
+  color: blueviolet;
 }
 
 p {
   text-align: justify;
+  padding: 20px;
+  margin: 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
 }
