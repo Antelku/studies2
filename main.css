@@ -22,7 +22,7 @@ body {
   text-align: center;
   font-size: large;
   font-weight: 600;
-  background-color: orange;
+  background-color: #669966;
   box-sizing: border-box;
   color: #333;
   overflow: auto;
@@ -42,7 +42,7 @@ nav li {
   margin-top: 20px;
   width: fit-content;
   padding: 6px;
-  border-color: rgb(97, 20, 169);
+  border-color: #990000;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
@@ -78,4 +78,9 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+.skills {
+  width: 25px;
+  border-radius: 5px;
 }
