@@ -69,11 +69,13 @@ p {
 button {
   margin-top: 10px;
   padding: 10px;
+  margin-bottom: 5px;
   background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  float: center;
 }
 
 button:hover {
@@ -83,4 +85,27 @@ button:hover {
 .skills {
   width: 25px;
   border-radius: 5px;
+}
+
+.skills_big {
+  width: 100px;
+  float: left;
+  margin-left: 20px;
+  padding: 0;
+  border-radius: 12px;
+}
+
+.review {
+  background-color: #339966;
+  float: left;
+  list-style-type: none;
+  text-align: left;
+  border-radius: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #006666;
+  text-align: center;
 }
