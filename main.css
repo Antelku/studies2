@@ -95,9 +95,9 @@ button:hover {
   padding: 0;
   border-radius: 12px;
 }
-.skills_big:hover {
-  visibility: hidden(80%);
-  transition: 0.5ms ease-in-out;
+img:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
 }
 
 .review {
@@ -111,8 +111,8 @@ button:hover {
 }
 
 footer {
-  background-color: #006666;
-  text-align: center;
+  /* text-align: center; */
+  height: 350px;
 }
 
 #aloha {
@@ -128,5 +128,16 @@ li::after {
   content: ">>";
 }
 
+iframe {
+  display: flex;
+  justify-content: flex;
+}
+
 #chao {
+  background-color: #006666;
+  border-radius: 5px;
+}
+
+.feedback {
+  display: flex;
 }
