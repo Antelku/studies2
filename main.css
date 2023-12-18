@@ -109,3 +109,16 @@ footer {
   background-color: #006666;
   text-align: center;
 }
+
+#aloha {
+  display: flex;
+  flex-direction: column;
+}
+
+li::before {
+  content: "<<";
+}
+
+li::after {
+  content: ">>";
+}
