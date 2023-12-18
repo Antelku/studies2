@@ -40,6 +40,7 @@ nav ul {
 
 nav li {
   margin-top: 20px;
+  margin-left: 20px;
   width: fit-content;
   padding: 6px;
   border-color: #990000;
@@ -94,6 +95,10 @@ button:hover {
   padding: 0;
   border-radius: 12px;
 }
+.skills_big:hover {
+  visibility: hidden(80%);
+  transition: 0.5ms ease-in-out;
+}
 
 .review {
   background-color: #339966;
@@ -121,4 +126,7 @@ li::before {
 
 li::after {
   content: ">>";
+}
+
+#chao {
 }
